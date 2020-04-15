@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 
 import { ProductCard } from "./ProductCard"
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
+=======
+import React, {Component} from "react";
+
+import {ProductCard} from "./ProductCard"
+import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai"
+>>>>>>> 929d84836797719f7cf09cf46a4d435e5aafb305
 
 export class Product extends Component {
     render() {
@@ -11,6 +18,7 @@ export class Product extends Component {
                     Áo quan
                 </p>
                 <div className="mb-6 whitespace-no-wrap overflow-y-hidden overflow-x-scroll">
+<<<<<<< HEAD
                     <ProductCard
                         imgUrl="https://res.cloudinary.com/livestreamzz/image/upload/v1586559688/nap_tron_lo03wp.png"
                         name="Hòm nắp tròn"
@@ -35,6 +43,16 @@ export class Product extends Component {
                 </div>
                 <div className="inline-block border border-solid p-3 shadow ml-4" style={{ borderColor: "#ffb6b6" }}>
                     <AiOutlineRight size="1.2rem" color="#ffb6b6" />
+=======
+                    <ProductCard/>
+                    <ProductCard/>
+                </div>
+                <div className="inline-block p-3 shadow" style={{background: "#ffb6b6"}}>
+                    <AiOutlineLeft size="1.2rem" color="#FFF"/>
+                </div>
+                <div className="inline-block border border-solid p-3 shadow ml-4" style={{borderColor: "#ffb6b6"}}>
+                    <AiOutlineRight size="1.2rem" color="#ffb6b6"/>
+>>>>>>> 929d84836797719f7cf09cf46a4d435e5aafb305
                 </div>
             </div>
         )
