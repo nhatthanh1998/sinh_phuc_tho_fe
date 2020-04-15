@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 export class ActivityVideo extends Component {
     render() {
@@ -12,8 +12,7 @@ export class ActivityVideo extends Component {
                         Xem thêm
                     </a>
                 </div>
-            
-                <iframe className="w-100 h-auto" src="https://www.youtube.com/embed/wJA884GWGdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="w-100 h-auto" src="https://www.youtube.com/embed/bENUpkUwqvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         )
     }
