@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import React, { Component } from 'react'
-=======
-import React, {Component} from 'react'
->>>>>>> 929d84836797719f7cf09cf46a4d435e5aafb305
 
+import React, {Component} from 'react'
 export class ActivityVideo extends Component {
     render() {
         return (
@@ -16,12 +12,7 @@ export class ActivityVideo extends Component {
                         Xem thêm
                     </a>
                 </div>
-<<<<<<< HEAD
                 <iframe className="w-100 h-auto" src="https://www.youtube.com/embed/bENUpkUwqvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-=======
-            
-                <iframe className="w-100 h-auto" src="https://www.youtube.com/embed/wJA884GWGdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->>>>>>> 929d84836797719f7cf09cf46a4d435e5aafb305
             </div>
         )
     }
