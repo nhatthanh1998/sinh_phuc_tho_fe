@@ -1,0 +1,23 @@
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+.text-dark-primary-color {
+    color: #222831;
+}
+
+.text-dark-secondary-color {
+    color: #828282;
+}
+
+.text-red {
+    color: #FC5185;
+}
+
+.scrolling-wrapper {
+    white-space: nowrap;
+}
