@@ -27,7 +27,6 @@ export class ImageGallery extends Component {
 
 
     async calculatePhotoRatio(data) {
-        console.log(data)
         const processes = data.map(async photo => {
             const { width, height } = await getMeta(photo.src)
             return {
@@ -45,11 +44,8 @@ export class ImageGallery extends Component {
 
     componentDidMount() {
         const { data } = this.props
-        console.log("in here at component:");
-        console.log(this.props)
         this.calculatePhotoRatio(data);
     }
-
     render() {
 
         return (

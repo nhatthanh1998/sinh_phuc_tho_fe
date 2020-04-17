@@ -1,5 +1,3 @@
-import React, { Component } from "react"
-
 import { Header } from "./components/Header/Header"
 import { Introduction } from "./components/Introduction/Introduction"
 import { Product } from "./components/Product/Product"
@@ -17,16 +15,9 @@ export class App extends Component {
                 <Introduction className="pb-12 pt-12" />
                 <Product className="pb-12" />
                 <Service className="pb-12" />
-
                 <PopularGallery />
                 <ActivityVideo />
                 <Footer />
-                <Header/>
-                <Introduction className="pb-12 pt-12"/>
-                <Product className="pb-12"/>
-                <Service className="pb-12"/>
-                <ActivityVideo/>
-                <Footer/>
             </div>
         )
     }

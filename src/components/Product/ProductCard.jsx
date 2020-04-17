@@ -2,8 +2,7 @@ import React, {Component} from 'react'
 
 export class ProductCard extends Component {
     render() {
-        const imgUrl = "https://images.unsplash.com/photo-1562886889-52933f35430b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80";
-        const name = "Hòm nắp tròn";
+       const {imgUrl, name} = this.props;
         const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel lobortis nisi. Maecenas sollicitudin risus."
         return (
             <div className="shadow-md w-9/12 pb-4 inline-block whitespace-normal">
