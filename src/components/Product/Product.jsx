@@ -5,21 +5,24 @@ import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai"
 export class Product extends Component {
     render() {
         return (
-            <div className={"ml-5 " + this.props.className}>
+            <div className={"mx-5 " + this.props.className}>
                 <p className="text-left font-playfair-display font-bold tracking-wider text-lg text-dark-primary-color mb-6">
                     Áo quan
                 </p>
-                <div className="mb-6 whitespace-no-wrap overflow-y-hidden overflow-x-scroll">
+                <div className="mb-6 px-1 whitespace-no-wrap overflow-x-scroll">
                     <ProductCard
+                        className="mr-10"
                         imgUrl="https://res.cloudinary.com/livestreamzz/image/upload/v1586559688/nap_tron_lo03wp.png"
                         name="Hòm nắp tròn"
                     />
                     <ProductCard
+                        className="mr-10"
                         imgUrl="https://res.cloudinary.com/livestreamzz/image/upload/v1586559687/dai_loan_dn2v2c.jpg"
                         name="Hòm Đài Loan"
                     />
 
                     <ProductCard
+                        className="mr-10"
                         imgUrl="https://res.cloudinary.com/livestreamzz/image/upload/v1586560436/hom_dai_loan_thieu_aas22v.jpg"
                         name="Hòm Đài Loan Thiêu"
                     />

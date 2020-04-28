@@ -7,12 +7,11 @@ export class Introduction extends Component {
                 <p className="text-center font-playfair-display font-bold tracking-wider text-lg text-dark-primary-color">
                     Về chúng tôi
                 </p>
-                <p className="font-playfair-display text-sm tracking-wide mt-3 text-dark-secondary-color px-5">
-                    Cơ sở mai tán1g Sinh Phúc thọ với hơn 20 năm kinh nghiệm trong lĩnh vực tổ chức tang lễ. Chúng tôi lấy UY TÍN, TRANG NGHIÊM, TẬN TÂM là yếu tố tiên quyết trong mỗi tang lễ chúng tôi tổ chức.
-                    Chúng tôi cung cấp rất nhiều loại áo quan khác nhau với giá cả rất phải chăng. Ngoài ra, còn có các dịch vụ kèm theo như KÈN TÂY, HOA TƯƠI, NHẠC NAM, NHẠC BẮC, ... theo yêu cầu của gia đình. <br/>
-                    Cơ sở mai táng Sinh Phúc Thọ làm việc 24/7. Hãy liên hệ chúng tôi để được tư vấn rõ ràng về các gói dịch vụ cho gia đình. <br />
-                    <br />
-                    <span className = "font-playfair-display font-bold tracking-wider text-lg text-dark-primary-color">0913.673.661 - Thanh Thời</span></p>
+                <p className="font-playfair-display text-sm tracking-wide mt-3 text-dark-secondary-color px-5 text-center">
+                Với hơn 30 năm kinh nghiệm hoạt động, cùng đội ngũ nhân viên chuyên nghiệp, Trại hòm Sinh Phúc Thọ cam kết mang đến cho gia đình một dịch vụ tang lễ trang trọng và trọn vẹn.
+Chúng tôi cung cấp nhiều loại áo quan đáp ứng theo nhu cầu của gia đình. Ngoài ra, để buổi lễ thêm phần trang trọng, chúng tôi còn cung cấp 
+thêm các dịch vụ như kèn Tây, nhạc Nam, nhạc Bắc, hoa tươi cùng nhiều loại dịch vụ khác
+            </p>
             </div>
         )
     }

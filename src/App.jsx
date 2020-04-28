@@ -1,25 +1,21 @@
-import { Header } from "./components/Header/Header"
-import { Introduction } from "./components/Introduction/Introduction"
-import { Product } from "./components/Product/Product"
-import { Service } from "./components/Service/Service"
-import { ActivityVideo } from "./components/Video/ActivityVideo"
-import { Footer } from "./components/Footer/Footer"
-import { PopularGallery } from "./container/Popular-Gallery/PopularGallery"
-import React, {Component} from "react"
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
 
-export class App extends Component {
-    render() {
-        return (
+import { HomePage } from "./pages/HomePage"
+export default function App() {
+    return (
+        <Router>
             <div>
-                <Header />
-                <Introduction className="pb-12 pt-12" />
-                <Product className="pb-12" />
-                <Service className="pb-12" />
-                <PopularGallery />
-                <ActivityVideo />
-                <Footer />
+                <Switch>
+                    <Route path="/">
+                        <HomePage />
+                    </Route>
+                </Switch>
             </div>
-        )
-    }
-
+        </Router>
+    );
 }
